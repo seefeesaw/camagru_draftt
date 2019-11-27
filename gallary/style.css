@@ -1,0 +1,40 @@
+/*Fonts*/
+@font-face
+{
+	font-family: 'Adam';
+	src: url('../fonts/Adam.otf');
+}
+
+@font-face
+{
+	font-family: 'geosans';
+	src: url('../fonts/GeosansLight.ttf');
+}
+
+
+.gallary-container a:hover{ 
+opacity: 0.8;
+
+}
+
+.gallary-links{
+font-family: 'Adam';
+font-size: 28px;
+font-weight: 600;
+color:#111;
+text-transform: uppercase;
+
+}
+
+.gallary-container a div{
+    width: 100px;
+    height: 500px;
+    background-color:red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display         : flex;
+    justify-content :space-between;
+    align-items:flex-start;
+    align-content:space-around;
+}
